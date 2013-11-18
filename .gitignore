@@ -1,3 +1,6 @@
+*.o
+*.a
+.deps
 *~
 *.pyc
 .DS_Store
@@ -11,5 +14,17 @@ Makefile.in
 /config.status
 /configure
 /m4
+/Makefile
+/tools/Makefile
+/lib/Makefile
+/src/Makefile
+/test/Makefile
 /libtool
 /stamp-h1
+/test/lit.cfg
+/bin
+/lib/boolector
+/lib/boolector-*
+/lib/lingeling
+/lib/lingeling-*
+/stack-*
